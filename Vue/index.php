@@ -54,7 +54,7 @@ session_start();
             <i class="fab fa-windows"></i>
             <i class="fas fa-graduation-cap"></i>
             <i class="fas fa-terminal"></i>
-            <i class="fas fa-desktop"></i>
+            <i class="fas fa-desktop"></i> 
             <i class="far fa-file-code"></i>
             <i class="fas fa-database"></i>
             <i class="fab fa-dev"></i>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="PROJECT" libraries="{Fullcalendar, bootstrap, dfde2568e7, edc8d5fc95, jquery-3.3.1.slim, jquery-3.5.1.slim, scrollreveal, w3}" />
+  </component>
+</project>
