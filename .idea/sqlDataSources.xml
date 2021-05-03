@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDataSourceStorage">
+    <option name="dataSources">
+      <list>
+        <State>
+          <option name="id" value="feddfda2-75ac-4663-ba56-80454ba846dc" />
+          <option name="name" value="petsitting" />
+          <option name="urls">
+            <array>
+              <option value="file://$USER_HOME$/Downloads/petsitting.sql" />
+            </array>
+          </option>
+        </State>
+      </list>
+    </option>
+  </component>
+</project>
