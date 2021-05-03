@@ -15,12 +15,14 @@ session_start();
     <title></title>
 </head>
 <body>
+<h1>Kraystone</h1>
 <section>
     <?php
         for ($x = 0; $x <= 16; $x++){
     ?>
     <div class="row">
         <div>
+            &nbsp;
             <i class="fas fa-graduation-cap"></i>
             <i class="fas fa-code"></i>
             <i class="fas fa-desktop"></i>
@@ -67,6 +69,7 @@ session_start();
         }
 ?>
 </section>
+
 </body>
 <?php include "../Vue/footer.php";
 mon_footer();

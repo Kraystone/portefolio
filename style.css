@@ -92,3 +92,8 @@ section .row:nth-child(even) div:nth-child(2) {
     }
 }
 
+h1{
+    background: white;
+    position: absolute; !important;
+}
+
