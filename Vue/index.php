@@ -15,61 +15,11 @@ session_start();
     <title></title>
 </head>
 <body>
-<h1>Kraystone</h1>
-<section>
-    <?php
-        for ($x = 0; $x <= 16; $x++){
-    ?>
-    <div class="row">
-        <div>
-            &nbsp;
-            <i class="fas fa-graduation-cap"></i>
-            <i class="fas fa-code"></i>
-            <i class="fas fa-desktop"></i>
-            <i class="far fa-file-code"></i>
-            <i class="fas fa-database"></i>
-            <i class="fab fa-dev"></i>
-            <i class="fab fa-github"></i>
-            <i class="fas fa-university"></i>
-            <i class="fab fa-linux"></i>
-            <i class="fab fa-windows"></i>
-            <i class="fas fa-graduation-cap"></i>
-            <i class="fas fa-terminal"></i>
-            <i class="fas fa-desktop"></i>
-            <i class="far fa-file-code"></i>
-            <i class="fas fa-database"></i>
-            <i class="fab fa-dev"></i>
-            <i class="fab fa-github"></i>
-            <i class="fas fa-code-branch"></i>
-            <i class="fas fa-book"></i>
-        </div>
-        <div>
-            <i class="fas fa-graduation-cap"></i>
-            <i class="fas fa-code"></i>
-            <i class="fas fa-desktop"></i>
-            <i class="far fa-file-code"></i>
-            <i class="fas fa-database"></i>
-            <i class="fab fa-dev"></i>
-            <i class="fab fa-github"></i>
-            <i class="fas fa-university"></i>
-            <i class="fab fa-linux"></i>
-            <i class="fab fa-windows"></i>
-            <i class="fas fa-graduation-cap"></i>
-            <i class="fas fa-terminal"></i>
-            <i class="fas fa-desktop"></i> 
-            <i class="far fa-file-code"></i>
-            <i class="fas fa-database"></i>
-            <i class="fab fa-dev"></i>
-            <i class="fab fa-github"></i>
-            <i class="fas fa-code-branch"></i>
-            <i class="fas fa-book"></i>
-        </div>
-    </div>
-<?php
-        }
+<h1 class="pseudo">Kraystone</h1>
+<h2 class="specialite">Etudiant en Bachelor en tant que Concepteur Intégrateur DEVOPS</h2>
+<?php include "../Vue/backgroundAnimated.php";
+backgroundAnimated();
 ?>
-</section>
-
 </body>
 <?php include "../Vue/footer.php";
 mon_footer();
