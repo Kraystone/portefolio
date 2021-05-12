@@ -1,7 +1,7 @@
 <?php function backgroundAnimated(){ ?>
     <section>
         <?php
-        for ($x = 0; $x <= 10; $x++){
+        for ($x = 0; $x <= 11; $x++){
             ?>
             <div class="row">
                 <div>
@@ -25,9 +25,9 @@
                     <i class="fas fa-server"></i>
                     <i class="fas fa-code-branch"></i>
                     <i class="fas fa-book"></i>
+                    &nbsp;
                 </div>
                 <div>
-                    &nbsp;
                     <i class="fas fa-graduation-cap"></i>
                     <i class="fas fa-code"></i>
                     <i class="fas fa-desktop"></i>
