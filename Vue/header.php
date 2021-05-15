@@ -8,4 +8,5 @@
     <title><?php echo $title ?></title>
     <script src="https://kit.fontawesome.com/dfde2568e7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" type="text/css"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.raspberrypi.org/app/uploads/2011/10/Raspi-PGB001.png">
 <?php } ?>

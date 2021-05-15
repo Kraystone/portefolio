@@ -1,6 +1,19 @@
 <?php function backgroundAnimated(){ ?>
-    <section>
+    <section class="background">
+
         <?php
+        function resol()
+        {
+            $resol='<script type="text/javascript">
+                        document.write(screen.height);
+                    </script>';
+            return $resol;
+        }
+        $var_resol=resol();
+        echo $var_resol;
+        echo "|";
+        $var_resol_temp=intval($var_resol, 10);
+        echo $var_resol_temp;
         for ($x = 0; $x <= 11; $x++){
             ?>
             <div class="row">

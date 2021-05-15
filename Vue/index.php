@@ -1,5 +1,5 @@
 <?php include "../Vue/header.php";
-mon_header("Léo Catifait");
+mon_header("Léo Catifait Portefolio");
 session_start();
 ?>
 <!doctype html>
@@ -20,6 +20,44 @@ session_start();
 <?php include "../Vue/backgroundAnimated.php";
 backgroundAnimated();
 ?>
+
+<section>
+    <div class="cards-list">
+
+        <div class="card 1">
+            <div class="card_image"> </div>
+            <div class="card_title title-black">
+                <p>Card Title</p>
+            </div>
+        </div>
+
+        <div class="card 2">
+            <div class="card_image">
+            </div>
+            <div class="card_title title-black">
+                <p>Card Title</p>
+            </div>
+        </div>
+
+        <div class="card 3">
+            <div class="card_image">
+            </div>
+            <div class="card_title">
+                <p>Card Title</p>
+            </div>
+        </div>
+
+        <div class="card 4">
+            <div class="card_image">
+            </div>
+            <div class="card_title title-black">
+                <p>Card Title</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
 </body>
 <?php include "../Vue/footer.php";
 mon_footer();
