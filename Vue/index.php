@@ -15,8 +15,8 @@ session_start();
     <title></title>
 </head>
 <body>
-<h1 class="pseudo">Kraystone</h1>
-<h2 class="specialite">Etudiant en Bachelor en tant que Concepteur Intégrateur DEVOPS</h2>
+<h1 >Kraystone</h1>
+<h2>Etudiant en Bachelor en tant que Concepteur Intégrateur DEVOPS</h2>
 <?php include "../Vue/backgroundAnimated.php";
 backgroundAnimated();
 ?>
