@@ -21,42 +21,7 @@ session_start();
 backgroundAnimated();
 ?>
 
-<section>
-    <div class="cards-list">
 
-        <div class="card 1">
-            <div class="card_image"> </div>
-            <div class="card_title title-black">
-                <p>Card Title</p>
-            </div>
-        </div>
-
-        <div class="card 2">
-            <div class="card_image">
-            </div>
-            <div class="card_title title-black">
-                <p>Card Title</p>
-            </div>
-        </div>
-
-        <div class="card 3">
-            <div class="card_image">
-            </div>
-            <div class="card_title">
-                <p>Card Title</p>
-            </div>
-        </div>
-
-        <div class="card 4">
-            <div class="card_image">
-            </div>
-            <div class="card_title title-black">
-                <p>Card Title</p>
-            </div>
-        </div>
-
-    </div>
-</section>
 
 </body>
 <?php include "../Vue/footer.php";
