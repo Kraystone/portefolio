@@ -134,12 +134,12 @@ h2 {
     }
 }
 
-@media only screen and (max-width: 736px) {
+@media only screen and (width: 736px) {
     h1 {
         position: absolute;
         padding-top: 60%;
         z-index: 1;
-        color: white;
+        color: red;
         font-size: 50px;
     }
     h2 {
